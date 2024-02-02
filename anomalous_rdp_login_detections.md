@@ -65,18 +65,18 @@ Use KQL: (SecurityEvent | where IPAddress == “XXX”)
 
 Escalate this alert along with all relevant data if you are unable to confirm the login activity is legitimate, or if there are signs of malicious compromise.
 
-KQL
+### KQL
 
 Run relevant hunting queries - dig through the list of available Hunting queries applicable to see if there are signs of potential threats related -  (set favorite queries by clicking the star). Attach any bookmark to the incident if it provides insights and share them
 
 
-### SLA Impact
+## SLA Impact
 Noncounting
 
-### Policy Type
+## Policy Type
 Security
 
-### Fields Of Interest
+## Fields Of Interest
 msg.flexString1  
 msg.ad.properties_additionaldata_tactics_0  
 msg.ad.properties_incidenturl  
@@ -85,13 +85,13 @@ msg.ad.properties_firstactivitytimeutc
 msg.ad.properties_lastactivitytimeutc  
 msg.ad.entities_0_properties_accountname  
 
-### Alert Handling Group
+## Alert Handling Group
 Security Monitoring
 
-### Default Severity
+## Default Severity
 3
 
-### Customers
+## Customers
 
 
 
