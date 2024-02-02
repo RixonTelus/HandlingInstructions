@@ -76,13 +76,13 @@ Noncounting
 Security
 
 ### Fields Of Interest
-msg.flexString1
-msg.ad.properties_additionaldata_tactics_0
-msg.ad.properties_incidenturl
-msg.ad.properties_createdtimeutc
-msg.ad.properties_firstactivitytimeutc
-msg.ad.properties_lastactivitytimeutc
-msg.ad.entities_0_properties_accountname
+msg.flexString1  
+msg.ad.properties_additionaldata_tactics_0  
+msg.ad.properties_incidenturl  
+msg.ad.properties_createdtimeutc  
+msg.ad.properties_firstactivitytimeutc  
+msg.ad.properties_lastactivitytimeutc  
+msg.ad.entities_0_properties_accountname  
 
 ### Alert Handling Group
 Security Monitoring
