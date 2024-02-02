@@ -1,4 +1,4 @@
-**TS-Anomalous RDP Login Detections**
+# TS-Anomalous RDP Login Detections
 
 This detection uses machine learning (ML) to identify anomalous Remote Desktop Protocol (RDP) login activity, based on Windows Security Event data. Scenarios include:
 
@@ -20,7 +20,8 @@ Allow 7 days after this alert is enabled for Microsoft Sentinel to build a profi
 
 
 
-Investigation Notes - to review once sample is present
+## Investigation Notes
+to review once sample is present
 
 **INCIDENT HAS NOT TRIGGERED PREVIOUSLY - HANDLING INSTRUCTIONS NOT ACCURATE. REACH OUT TO T2 TO ADVISE THIS USE-CASE HAS TRIGGERED**
 
