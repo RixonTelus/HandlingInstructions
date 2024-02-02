@@ -7,8 +7,6 @@ Description
 ### MITRE Technique
 
 ## Investigation Notes
-to review once sample is present
-
 **INCIDENT HAS NOT TRIGGERED PREVIOUSLY - HANDLING INSTRUCTIONS NOT ACCURATE. REACH OUT TO T2 TO ADVISE THIS USE-CASE HAS TRIGGERED**
 
 Review Incident --> Full Details page; are there any alerts related to the account, IP, host? "Investigate" function can be used to investigate each entity present in the alert. 
