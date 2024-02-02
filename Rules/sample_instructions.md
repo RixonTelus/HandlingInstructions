@@ -1,24 +1,10 @@
-# TS-Anomalous RDP Login Detections
+# TS-Rule Name
 
-This detection uses machine learning (ML) to identify anomalous Remote Desktop Protocol (RDP) login activity, based on Windows Security Event data. Scenarios include:
+Description
 
-\*        Unusual IP - This IP address has not or has rarely been seen in last 30 days.  
-\*        Unusual Geo - The IP address, city, country and ASN have not (or rarely) been seen in last 30 days.  
-\*        New user - A new user logs in from an IP address and geo location, both or either of which are not expected to be seen in the last 30 days.
+### MITRE Tactic
 
-Allow 7 days after this alert is enabled for Microsoft Sentinel to build a profile of normal activity for your environment. This detection requires a specific configuration of the data source. \[Learn more\](https://docs.microsoft.com/en-us/azure/sentinel/connect-windows-security-events). By enabling this rule, you give Microsoft permission to copy ingested data outside of your Microsoft Sentinel workspace's geography as necessary for processing by the machine learning engine.
-
-**MITRE Tactic**
-
-[TA0001 - Initial Access](https://attack.mitre.org/attacks/TA0001/)
-
-**MITRE Technique**
-
-
-
-
-
-
+### MITRE Technique
 
 ## Investigation Notes
 to review once sample is present
@@ -30,8 +16,6 @@ Review Incident --> Full Details page; are there any alerts related to the accou
 In the events, take note of:
 
 xxxxxx
-
- 
 
 Leverage the Investigation Insights workbook, entity behaviour, and KQL Sign-in query (SecurityEvent | where IPAddress == “XXX”)  to gather more details on the user and IP. 
 
@@ -77,13 +61,6 @@ Noncounting
 Security
 
 ## Fields Of Interest
-msg.flexString1  
-msg.ad.properties_additionaldata_tactics_0  
-msg.ad.properties_incidenturl  
-msg.ad.properties_createdtimeutc  
-msg.ad.properties_firstactivitytimeutc  
-msg.ad.properties_lastactivitytimeutc  
-msg.ad.entities_0_properties_accountname  
 
 ## Alert Handling Group
 Security Monitoring
